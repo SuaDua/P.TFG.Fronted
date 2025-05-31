@@ -1,0 +1,51 @@
+/* 🔍 Contenedor de la barra de búsqueda */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* 🔍 Input de la barra de búsqueda */
+.search-bar {
+  padding: 12px;
+  width: 50%;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+/* ✨ Efecto al hacer clic en la barra de búsqueda */
+.search-bar:focus {
+  border-color: #ff6b6b;
+  box-shadow: 0px 0px 8px rgba(255, 107, 107, 0.5);
+}
+
+/* 🔘 Botón de búsqueda */
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0078d7;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+/* 🎨 Cambio de color al pasar el mouse */
+.search-button:hover {
+  background-color: #005bb5;
+}
+
+.search-result-image {
+  width:120px; /* Imagen más pequeña en búsqueda */
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out; /* Animación suave */
+}

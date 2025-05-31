@@ -1,0 +1,36 @@
+.weather-page-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-page-container h1 {
+    font-size: 2rem;
+    color: #004aad;
+    margin-bottom: 15px;
+  }
+
+
+  .weather-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .toggle-button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .toggle-button:hover {
+    background-color: #005bb5;
+  }

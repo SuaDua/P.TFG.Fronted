@@ -1,0 +1,62 @@
+.content-list {
+    padding: 2rem;
+    text-align: center;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.car-card {
+    background: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.car-card h3 {
+    margin: 0.5rem 0;
+}
+
+.car-card p {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x600') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content button {
+    padding: 1rem 2rem;
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background-color: #e64a19;
+}

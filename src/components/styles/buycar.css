@@ -1,0 +1,43 @@
+.buy-car-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buy-car-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .buy-car-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .buy-car-container input,
+  .buy-car-container select {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .confirm-button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,74 @@
+.survey-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 90%;
+  margin: auto;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor para organizar las tarjetas en filas */
+.survey-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajustable según el tamaño */
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Estilo de las tarjetas */
+.survey-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.survey-card:hover {
+  transform: scale(1.05);
+}
+
+/* Ajuste de imágenes */
+.product-image {
+  width: 160px; /* Tamaño controlado */
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+/* Botón de votación */
+.vote-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.vote-button:hover {
+  background: #0056b3;
+}
+
+/* Calificación con estrellas */
+.rating {
+  margin-top: 10px;
+}
+
+textarea {
+  width: 90%;
+  height: 60px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  resize: none;
+}

@@ -1,0 +1,32 @@
+.forecast-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.9em;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.forecast-table th,
+.forecast-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.forecast-table th {
+  background-color: #0078d7;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.forecast-table td img {
+  width: 40px;
+  height: auto;
+  display: inline-block;
+}
+
+.forecast-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

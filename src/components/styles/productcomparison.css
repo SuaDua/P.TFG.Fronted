@@ -1,0 +1,77 @@
+.comparison-container {
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.product-selection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: rgb(8, 3, 3);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.comparison-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-table th {
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+.comparison-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.comparison-table tr:nth-child(even) {
+  background: #8f7e7e;
+}
+
+/* ✅ Aumentar el tamaño de las imágenes */
+.comparison-image {
+  width: 120px; /* Antes era 50px */
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.comparison-image:hover {
+  transform: scale(1.2);
+}
+
+.color-cell {
+  font-weight: bold;
+  text-transform: capitalize;
+}
